@@ -1,0 +1,7 @@
+C:\Users\ilya\source\repos\client_server\client_server\bin\Debug\client_server.exe.config
+C:\Users\ilya\source\repos\client_server\client_server\bin\Debug\client_server.exe
+C:\Users\ilya\source\repos\client_server\client_server\bin\Debug\client_server.pdb
+C:\Users\ilya\source\repos\client_server\client_server\obj\Debug\client_server.csprojAssemblyReference.cache
+C:\Users\ilya\source\repos\client_server\client_server\obj\Debug\client_server.csproj.CoreCompileInputs.cache
+C:\Users\ilya\source\repos\client_server\client_server\obj\Debug\client_server.exe
+C:\Users\ilya\source\repos\client_server\client_server\obj\Debug\client_server.pdb

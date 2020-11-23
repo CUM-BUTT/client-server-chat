@@ -1,0 +1,13 @@
+C:\Users\ilya\source\repos\client_server\client\bin\Debug\client.exe.config
+C:\Users\ilya\source\repos\client_server\client\bin\Debug\client.exe
+C:\Users\ilya\source\repos\client_server\client\bin\Debug\client.pdb
+C:\Users\ilya\source\repos\client_server\client\bin\Debug\client_server.exe
+C:\Users\ilya\source\repos\client_server\client\bin\Debug\client_server.pdb
+C:\Users\ilya\source\repos\client_server\client\bin\Debug\client_server.exe.config
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.csprojAssemblyReference.cache
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.csproj.CoreCompileInputs.cache
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.csproj.CopyComplete
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.exe
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.pdb
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.csproj.GenerateResource.cache
+C:\Users\ilya\source\repos\client_server\client\obj\Debug\client.ClientWindow.resources
