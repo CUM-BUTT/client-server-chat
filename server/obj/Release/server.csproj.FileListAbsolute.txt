@@ -1,0 +1,11 @@
+C:\Users\ilya\source\repos\client_server\server\bin\Release\server.exe.config
+C:\Users\ilya\source\repos\client_server\server\bin\Release\server.exe
+C:\Users\ilya\source\repos\client_server\server\bin\Release\server.pdb
+C:\Users\ilya\source\repos\client_server\server\bin\Release\client_server.exe
+C:\Users\ilya\source\repos\client_server\server\bin\Release\client_server.pdb
+C:\Users\ilya\source\repos\client_server\server\bin\Release\client_server.exe.config
+C:\Users\ilya\source\repos\client_server\server\obj\Release\server.csprojAssemblyReference.cache
+C:\Users\ilya\source\repos\client_server\server\obj\Release\server.csproj.CoreCompileInputs.cache
+C:\Users\ilya\source\repos\client_server\server\obj\Release\server.csproj.CopyComplete
+C:\Users\ilya\source\repos\client_server\server\obj\Release\server.exe
+C:\Users\ilya\source\repos\client_server\server\obj\Release\server.pdb

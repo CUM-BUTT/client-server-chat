@@ -4,10 +4,10 @@ C:\Users\ilya\source\repos\client_server\client\bin\Release\client.pdb
 C:\Users\ilya\source\repos\client_server\client\bin\Release\client_server.exe
 C:\Users\ilya\source\repos\client_server\client\bin\Release\client_server.pdb
 C:\Users\ilya\source\repos\client_server\client\bin\Release\client_server.exe.config
-C:\Users\ilya\source\repos\client_server\client\obj\Release\client.csprojAssemblyReference.cache
 C:\Users\ilya\source\repos\client_server\client\obj\Release\client.ClientWindow.resources
 C:\Users\ilya\source\repos\client_server\client\obj\Release\client.csproj.GenerateResource.cache
 C:\Users\ilya\source\repos\client_server\client\obj\Release\client.csproj.CoreCompileInputs.cache
 C:\Users\ilya\source\repos\client_server\client\obj\Release\client.csproj.CopyComplete
 C:\Users\ilya\source\repos\client_server\client\obj\Release\client.exe
 C:\Users\ilya\source\repos\client_server\client\obj\Release\client.pdb
+C:\Users\ilya\source\repos\client_server\client\obj\Release\client.csprojAssemblyReference.cache

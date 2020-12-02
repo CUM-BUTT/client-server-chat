@@ -14,30 +14,24 @@ namespace client_server
         public string ip;
         public IPEndPoint ip_point;
         public Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-        public Adress(string ip=null, int port=-1)
+        public Adress(string ip, int port)
         {
             this.ip = ip;
             this.port = port;
-            if (ip != null)
-            {
-                ip_point = new IPEndPoint(IPAddress.Parse(ip), port);
-            }
+            ip_point = new IPEndPoint(IPAddress.Parse(ip), port);
         }
-
-        public void BindThenListen(int connected_count)
+        public Adress()
         {
-         
-            try
-            {
-                socket.Bind(ip_point);
-                socket.Listen(connected_count);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
-            
-        }
 
+        }
+        public void BindListen(int connection_count)
+        {
+            socket.Bind(ip_point);
+            socket.Listen(connection_count);
+        }
+        public void Connect()
+        {
+            socket.Connect(ip_point);
+        }
     }
 }

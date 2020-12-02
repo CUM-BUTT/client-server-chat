@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using client_server;
 
 namespace server
 {
@@ -10,7 +11,8 @@ namespace server
     {
         static void Main(string[] args)
         {
-            new Server().Run();
+            var s = new Server();
+            s.Run();
         }
     }
 }

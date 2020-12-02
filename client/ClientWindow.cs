@@ -1,5 +1,4 @@
-﻿using client;
-using client_server;
+﻿using client_server;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +14,7 @@ namespace client
 {
     public partial class ClientWindow : Form
     {
-        ClientForWindow client = new ClientForWindow();
+        Client client = new Client();
         public ClientWindow()
         {
             InitializeComponent();
@@ -31,11 +30,11 @@ namespace client
             var ip = textBox_ip.Text;
             var port = int.Parse(textBox_port.Text);
             client.another = new Adress(ip, port);
-            client.message_event += GetMessage;
+            client.get_message_event += GetMessage;
             new Thread(client.Run).Start();
         }
 
-        private void GetMessage(client_server.Message message, Link sender)
+        private void GetMessage(client_server.Message message, Object sender)
         {
             var mes = $"\n{message.sender} :{message.message}\n" + System.Environment.NewLine;
             if (textBox_chat.InvokeRequired)
@@ -66,7 +65,6 @@ namespace client
             {
                 Send();
             }
-            
         }
     }
 }

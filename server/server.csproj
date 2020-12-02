@@ -47,17 +47,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server.cs" />
-    <Compile Include="ServerLink.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\client\client.csproj">
-      <Project>{ad61225b-fe00-4ed4-86eb-235a2e81f0ec}</Project>
-      <Name>client</Name>
-    </ProjectReference>
     <ProjectReference Include="..\client_server\client_server.csproj">
       <Project>{b35cbefc-2c92-417f-afad-026674dce238}</Project>
       <Name>client_server</Name>

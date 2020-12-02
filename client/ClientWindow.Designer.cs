@@ -35,7 +35,6 @@
             this.label_server_ip = new System.Windows.Forms.Label();
             this.textBox_input_freld = new System.Windows.Forms.TextBox();
             this.textBox_chat = new System.Windows.Forms.TextBox();
-            this.send_button = new System.Windows.Forms.Button();
             this.textBox_name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -89,7 +88,7 @@
             this.textBox_input_freld.Location = new System.Drawing.Point(12, 383);
             this.textBox_input_freld.Multiline = true;
             this.textBox_input_freld.Name = "textBox_input_freld";
-            this.textBox_input_freld.Size = new System.Drawing.Size(670, 55);
+            this.textBox_input_freld.Size = new System.Drawing.Size(776, 55);
             this.textBox_input_freld.TabIndex = 6;
             this.textBox_input_freld.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_input_freld_KeyDown);
             // 
@@ -100,16 +99,6 @@
             this.textBox_chat.Name = "textBox_chat";
             this.textBox_chat.Size = new System.Drawing.Size(776, 341);
             this.textBox_chat.TabIndex = 7;
-            // 
-            // send_button
-            // 
-            this.send_button.Location = new System.Drawing.Point(688, 383);
-            this.send_button.Name = "send_button";
-            this.send_button.Size = new System.Drawing.Size(100, 58);
-            this.send_button.TabIndex = 8;
-            this.send_button.Text = "send";
-            this.send_button.UseVisualStyleBackColor = true;
-            this.send_button.Click += new System.EventHandler(this.send_button_Click);
             // 
             // textBox_name
             // 
@@ -135,7 +124,6 @@
             this.ClientSize = new System.Drawing.Size(800, 448);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox_name);
-            this.Controls.Add(this.send_button);
             this.Controls.Add(this.textBox_chat);
             this.Controls.Add(this.textBox_input_freld);
             this.Controls.Add(this.label_server_ip);
@@ -160,7 +148,6 @@
         private System.Windows.Forms.Label label_server_ip;
         private System.Windows.Forms.TextBox textBox_input_freld;
         private System.Windows.Forms.TextBox textBox_chat;
-        private System.Windows.Forms.Button send_button;
         private System.Windows.Forms.TextBox textBox_name;
         private System.Windows.Forms.Label label1;
     }
